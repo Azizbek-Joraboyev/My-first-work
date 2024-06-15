@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ html, body {
+    font-family: sans-serif;
+ }
+ a{
+    color: #333;
+    text-decoration: none;
+ }
+ h1, h2, h3 {
+  padding-bottom: 20px;
+ }
+ p {
+    margin: 10px 0;
+ }
+ .box1{
+    background-color: #333;
+    color: #fff;
+    overflow:auto ;
+ }
+ .box1 a{
+    color: #fff
+ }
+ .box1 h1{
+   float: left;
+   padding-top: 20px;
+ }
+ .box1 ul{
+    float: right;
+    list-style: none;
+ }
+ .box1 ul li{
+    float: left;
+ }
+ .box1 ul li a{
+    display: inline-block;
+    padding: 25px;
+ }
+ .box5{
+    background-image: url('../img/10.jfif');
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+ .box6{
+    display: flex;
+    background-color: #025955;
+    margin: 20px 20px 20px 20px;
+    width: 770px;
+ }
+ .box6{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   margin-right: 10px;
+ }
+ .box6 img .frist-img{
+   height: 300px;
+ }
+ .box7{
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+ }
+ .box8{
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+ }
+ .box9{
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+ }
+ .box10{
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+ }
